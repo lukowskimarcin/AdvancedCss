@@ -1,0 +1,23 @@
+{
+    "name": "advancedcss",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "compile:sass": "node-sass sass/main.scss  css/style.css -w",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/lukowskimarcin/AdvancedCss.git"
+    },
+    "author": "",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/lukowskimarcin/AdvancedCss/issues"
+    },
+    "homepage": "https://github.com/lukowskimarcin/AdvancedCss#readme",
+    "devDependencies": {
+        "node-sass": "^7.0.1"
+    }
+}
