@@ -36,3 +36,8 @@ body {
 video {
     object-fit: cover;
 }
+
+::selection {
+    background-color: $color-primary;
+    color: $color-white;
+}
